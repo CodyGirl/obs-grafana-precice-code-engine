@@ -89,7 +89,7 @@
           "root_selector": "nodes",
           "source": "url",
           "type": "json",
-          "url": "http://dex:5000/getDependencyTree",
+          "url": "{{DEX_URL}}/getDependencyTree",
           "url_options": {
             "data": "",
             "method": "GET",
@@ -115,7 +115,7 @@
           "root_selector": "edges",
           "source": "url",
           "type": "json",
-          "url": "http://dex:5000/getDependencyTree",
+          "url": "{{DEX_URL}}/getDependencyTree",
           "url_options": {
             "data": "",
             "method": "GET",
@@ -141,7 +141,7 @@
           "root_selector": "",
           "source": "url",
           "type": "json",
-          "url": "http://dex:5000/getBranchStates",
+          "url": "{{DEX_URL}}/getBranchStates",
           "url_options": {
             "data": "",
             "method": "GET"

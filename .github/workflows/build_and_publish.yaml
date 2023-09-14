@@ -1,0 +1,16 @@
+name: Build and Publish Image on GHCR
+
+on:
+  push
+
+jobs:
+  build_and_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and push the Grafana Image
+        run: |
+          docker login --username CodyGirl --password ${{ secrets.GHCR_PAT }} ghcr.io
+          cd grafana
+          docker build . --tag ghcr.io/codygirl/precice-obs-grafana-ce:latest
+          docker push ghcr.io/codygirl/precice-obs-grafana-ce:latest
