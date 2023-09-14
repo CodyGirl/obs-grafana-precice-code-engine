@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+  - name: GitHub Datasource
+    type: grafana-github-datasource
+    uid: a27a3f4d-aa64-471f-84d4-1e11ac7f3a70
+    secureJsonData:
+      accessToken: $GTOKEN
+  - name: Infinity Datasource
+    type: yesoreyeram-infinity-datasource
+    uid: af97edc4-e52b-4654-967b-1fc9c45774d5

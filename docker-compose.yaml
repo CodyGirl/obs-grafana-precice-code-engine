@@ -1,0 +1,28 @@
+version: "3"
+services:
+  dex:
+    image: ghcr.io/codygirl/precice-obs-backend-python:latest
+    container_name: dex
+    hostname: dex
+    env_file:
+      - .env
+    ports:
+      - 5000
+    networks:
+      - obs
+  grafana:
+    image: ghcr.io/codygirl/precice-obs-grafana:latest
+    container_name: grafana
+    hostname: grafana
+    env_file:
+      - .env
+    depends_on:
+      - dex
+    ports:
+      - 3000:3000
+    networks:
+      - obs
+networks:
+  obs:
+    # name: obs
+    driver: bridge

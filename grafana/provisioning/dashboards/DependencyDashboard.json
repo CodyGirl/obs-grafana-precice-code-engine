@@ -1,0 +1,300 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 2,
+  "links": [
+    {
+      "asDropdown": false,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [
+        "github"
+      ],
+      "targetBlank": false,
+      "title": "dashboards",
+      "tooltip": "",
+      "type": "dashboards",
+      "url": ""
+    }
+  ],
+  "liveNow": false,
+  "panels": [
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "af97edc4-e52b-4654-967b-1fc9c45774d5"
+      },
+      "gridPos": {
+        "h": 19,
+        "w": 19,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "baidu": {
+          "callback": "bmapReady",
+          "key": ""
+        },
+        "editor": {
+          "format": "auto",
+          "height": 600
+        },
+        "gaode": {
+          "key": "",
+          "plugin": "AMap.Scale,AMap.ToolBar"
+        },
+        "getOption": "let nodeIds = [], titles = [], url = [], degree = [], color = [];\nlet sources = [].targets = [], edgeIds = [];\nlet category = [];\nlet repos = [], statuses = [];\ndata.series.map((s) => {\n  if (s.refId == 'nodes') {\n    nodeIds = s.fields.find((f) => f.name === 'id').values.buffer || s.fields.find((f) => f.name === 'id').values;\n    titles = s.fields.find((f) => f.name === 'title').values.buffer || s.fields.find((f) => f.name === 'title').values;\n    url = s.fields.find((f) => f.name === 'url').values.buffer || s.fields.find((f) => f.name === 'url').values;\n    degree = s.fields.find((f) => f.name === 'degree').values.buffer || s.fields.find((f) => f.name === 'degree').values;\n    // color = s.fields.find((f) => f.name === 'color').values.buffer || s.fields.find((f) => f.name === 'color').values;\n  } else if (s.refId == 'edges') {\n    sources = s.fields.find((f) => f.name === 'source').values.buffer || s.fields.find((f) => f.name === 'source').values;\n    targets = s.fields.find((f) => f.name === 'target').values.buffer || s.fields.find((f) => f.name === 'target').values;\n    edgeIds = s.fields.find((f) => f.name === 'id').values.buffer || s.fields.find((f) => f.name === 'id').values;\n  } else if (s.refId == 'statuses') {\n    repos = s.fields.find((f) => f.name === 'repo').values.buffer || s.fields.find((f) => f.name === 'repo').values;\n    statuses = s.fields.find((f) => f.name === 'state').values.buffer || s.fields.find((f) => f.name === 'state').values;\n  }\n})\n\n// color = [];\n// for (let i = 0; i < url.length; i++) {\n//   if (url[i] && url[i] != '') {\n//     repository = url[i].split('/').pop()\n//     index = repos.indexOf(repository)\n//     if (index != -1) {\n//       if (statuses[index] == false) {\n//         color.push('#d61d13') // fail state\n//       } else if (statuses[index] == true) {\n//         color.push('#68d613') // pass state\n//       } else {\n//         color.push(\"#ebdd23\") // state not available\n//       }\n//     } else {\n//       color.push(\"#ebdd23\") // not a precice repo\n//     }\n//   }\n// }\n\ncolor = [];\nfor (let i = 0; i < nodeIds.length; i++) {\n  repository = nodeIds[i]\n  index = repos.indexOf(repository)\n  if (index != -1) {\n    if (statuses[index] == false) {\n      color.push('#f77668') // fail state\n    } else if (statuses[index] == true) {\n      color.push('#82e885') // pass state\n    } else {\n      color.push(\"#e9eb71\") // state not available\n    }\n  } else {\n    color.push(\"#98eaed\") // not a precice repo\n  }\n}\n\nconst connections = sources.map(function (value, i) {\n  return { source: value, target: targets[i] }\n})\n\nechartsInstance.on('click', { dataType: 'node' }, params => {\n  if (!params.data.url) {\n    return;\n  }\n\n  window.open(params.data.url, '_blank');\n})\n\nconst nodes = titles.map(function (value, i) {\n  return {\n    fixed: false,\n    name: nodeIds[i],\n    value: value,\n    itemStyle: {\n      color: color[i],\n      borderWidth: 1,\n      borderColor: 'black'\n    },\n    url: url[i],\n    symbolSize: (degree[i] + 5) * 1.5,\n    smooth: true,\n    label: {\n      padding: [5, 5],\n      position: 'bottom',\n      textStyle: { fontWeight: '500s' }\n    }\n  }\n})\n\ncategory = ['Failure', 'Successful', 'Not Available', 'Not a preCICE repo']\nlegendColors = ['#f77668', '#82e885', '#e9eb71', \"#98eaed\"]\nconst categories = category.map(function (value, i) {\n  return { name: value }\n})\n\nreturn {\n  colorBy: \"series\",\n  legend: [\n    {\n      data: categories.map(function (a, i) {\n        return {\n          name: a.name,\n          itemStyle: {\n            color: legendColors[i]\n          }\n        };\n      })\n    }\n  ],\n  series: [\n    {\n      type: 'graph',\n      layout: 'force',\n      roam: true,\n      draggable: true,\n      scaleLimit: { min: 0.0, max: 50 },\n      label: {\n        show: true,\n        formatter: '{b}'\n      },\n      data: nodes,\n      edges: connections,\n      categories: categories,\n      edgeSymbol: ['none', 'arrow'],\n      force: {\n        initLayout: 'circular',\n        repulsion: 10,\n        gravity: 0.03,\n        edgeLength: 150\n      },\n      lineStyle: {\n        color: 'source',\n        curveness: 0.1\n      },\n      emphasis: {\n        focus: 'adjacency',\n        lineStyle: {\n          width: 10\n        }\n      },\n    },\n  ]\n};",
+        "google": {
+          "callback": "gmapReady",
+          "key": ""
+        },
+        "map": "none",
+        "renderer": "canvas",
+        "themeEditor": {
+          "config": "{}",
+          "height": 400,
+          "name": "default"
+        }
+      },
+      "targets": [
+        {
+          "columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "af97edc4-e52b-4654-967b-1fc9c45774d5"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "refId": "nodes",
+          "root_selector": "nodes",
+          "source": "url",
+          "type": "json",
+          "url": "http://dex:5000/getDependencyTree",
+          "url_options": {
+            "data": "",
+            "method": "GET",
+            "params": [
+              {
+                "key": "node",
+                "value": "$dependency_node"
+              }
+            ]
+          }
+        },
+        {
+          "columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "af97edc4-e52b-4654-967b-1fc9c45774d5"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "hide": false,
+          "refId": "edges",
+          "root_selector": "edges",
+          "source": "url",
+          "type": "json",
+          "url": "http://dex:5000/getDependencyTree",
+          "url_options": {
+            "data": "",
+            "method": "GET",
+            "params": [
+              {
+                "key": "node",
+                "value": "$dependency_node"
+              }
+            ]
+          }
+        },
+        {
+          "columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "af97edc4-e52b-4654-967b-1fc9c45774d5"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "hide": false,
+          "refId": "statuses",
+          "root_selector": "",
+          "source": "url",
+          "type": "json",
+          "url": "http://dex:5000/getBranchStates",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Graph",
+      "type": "volkovlabs-echarts-panel"
+    },
+    {
+      "datasource": {
+        "type": "datasource",
+        "uid": "-- Dashboard --"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "fixedColor": "transparent",
+            "mode": "fixed"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "color-background"
+            },
+            "filterable": true,
+            "inspect": false
+          },
+          "mappings": [
+            {
+              "options": {
+                "false": {
+                  "color": "red",
+                  "index": 1,
+                  "text": "Failure"
+                },
+                "null": {
+                  "color": "transparent",
+                  "index": 2,
+                  "text": "Not Available"
+                },
+                "true": {
+                  "color": "light-green",
+                  "index": 0,
+                  "text": "Success"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 19,
+        "w": 5,
+        "x": 19,
+        "y": 0
+      },
+      "id": 2,
+      "options": {
+        "cellHeight": "sm",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true
+      },
+      "pluginVersion": "10.0.2",
+      "targets": [
+        {
+          "datasource": {
+            "type": "datasource",
+            "uid": "-- Dashboard --"
+          },
+          "panelId": 1,
+          "refId": "A"
+        }
+      ],
+      "title": "Default Branch State",
+      "transformations": [
+        {
+          "id": "filterByRefId",
+          "options": {
+            "include": "statuses"
+          }
+        }
+      ],
+      "type": "table"
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": [
+    "dependency"
+  ],
+  "templating": {
+    "list": [
+      {
+        "allValue": "All",
+        "current": {
+          "selected": true,
+          "text": "All",
+          "value": "$__all"
+        },
+        "datasource": {
+          "type": "grafana-github-datasource",
+          "uid": "a27a3f4d-aa64-471f-84d4-1e11ac7f3a70"
+        },
+        "definition": "GitHub - Repositories",
+        "description": "Choose a repository to lookup in the graph",
+        "hide": 0,
+        "includeAll": true,
+        "label": "Choose a repository to lookup in the graph",
+        "multi": false,
+        "name": "dependency_node",
+        "options": [],
+        "query": {
+          "field": "name",
+          "key": "name",
+          "owner": "preCICE",
+          "queryType": "Repositories"
+        },
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "type": "query"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Dependency Dashboard",
+  "uid": "cd8811af-3319-4af5-96e0-9f7ef17473e2",
+  "version": 11,
+  "weekStart": ""
+}

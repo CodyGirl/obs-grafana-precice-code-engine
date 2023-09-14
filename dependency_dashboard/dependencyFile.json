@@ -1,0 +1,3855 @@
+[
+    {
+        "repo": "precice",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/auto-author-assign.yml",
+                "depName": "toshimaru/auto-author-assign",
+                "sourceUrl": "https://github.com/toshimaru/auto-author-assign"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test-mac.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test-mac.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test-mac.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "codecov/codecov-action",
+                "sourceUrl": "https://github.com/codecov/codecov-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "electronjoe/gcc-problem-matcher",
+                "sourceUrl": "https://github.com/electronjoe/gcc-problem-matcher"
+            },
+            {
+                "dataSource": ".github/workflows/code-linting.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/code-linting.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/code-style.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/code-style.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/codeql.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/codeql.yml",
+                "depName": "github/codeql-action/analyze",
+                "sourceUrl": "https://github.com/github/codeql-action"
+            },
+            {
+                "dataSource": ".github/workflows/codeql.yml",
+                "depName": "github/codeql-action/autobuild",
+                "sourceUrl": "https://github.com/github/codeql-action"
+            },
+            {
+                "dataSource": ".github/workflows/codeql.yml",
+                "depName": "github/codeql-action/init",
+                "sourceUrl": "https://github.com/github/codeql-action"
+            },
+            {
+                "dataSource": ".github/workflows/coverity-scan.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/docker-develop.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/docker-develop.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/docker-develop.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "dawidd6/action-get-tag",
+                "sourceUrl": "https://github.com/dawidd6/action-get-tag"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "softprops/action-gh-release",
+                "sourceUrl": "https://github.com/softprops/action-gh-release"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "svenstaro/upload-release-action",
+                "sourceUrl": "https://github.com/svenstaro/upload-release-action"
+            },
+            {
+                "dataSource": ".github/workflows/request-deb-package.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/request-deb-package.yml",
+                "depName": "svenstaro/upload-release-action",
+                "sourceUrl": "https://github.com/svenstaro/upload-release-action"
+            },
+            {
+                "dataSource": ".github/workflows/request-package.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/request-package.yml",
+                "depName": "svenstaro/upload-release-action",
+                "sourceUrl": "https://github.com/svenstaro/upload-release-action"
+            }
+        ]
+    },
+    {
+        "repo": "elastictube1d",
+        "deps": []
+    },
+    {
+        "repo": "precice.github.io_old",
+        "deps": [
+            {
+                "dataSource": "Gemfile",
+                "depName": "github-pages",
+                "sourceUrl": "https://github.com/github/pages-gem"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "activesupport",
+                "sourceUrl": "https://github.com/rails/rails"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "addressable",
+                "sourceUrl": "https://github.com/sporkmonger/addressable"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "coffee-script",
+                "sourceUrl": "https://github.com/rails/ruby-coffee-script"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "coffee-script-source",
+                "sourceUrl": "https://github.com/jerrydudziak/coffee-script-source"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "colorator",
+                "sourceUrl": "https://github.com/octopress/colorator"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "commonmarker",
+                "sourceUrl": "https://github.com/gjtorikian/commonmarker"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "concurrent-ruby",
+                "sourceUrl": "https://github.com/ruby-concurrency/concurrent-ruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "dnsruby",
+                "sourceUrl": "https://github.com/alexdalitz/dnsruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "em-websocket",
+                "sourceUrl": "https://github.com/igrigorik/em-websocket"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "ethon",
+                "sourceUrl": "https://github.com/typhoeus/ethon"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "eventmachine",
+                "sourceUrl": "https://github.com/eventmachine/eventmachine"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "execjs",
+                "sourceUrl": "https://github.com/rails/execjs"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "faraday",
+                "sourceUrl": "https://github.com/lostisland/faraday"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "ffi",
+                "sourceUrl": "https://github.com/ffi/ffi"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "forwardable-extended",
+                "sourceUrl": "https://github.com/envygeeks/forwardable-extended"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "gemoji",
+                "sourceUrl": "https://github.com/github/gemoji"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "github-pages",
+                "sourceUrl": "https://github.com/github/pages-gem"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "github-pages-health-check",
+                "sourceUrl": "https://github.com/github/pages-health-check"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "html-pipeline",
+                "sourceUrl": "https://github.com/gjtorikian/html-pipeline"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "http_parser.rb",
+                "sourceUrl": "https://github.com/tmm1/http_parser.rb"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "i18n",
+                "sourceUrl": "https://github.com/ruby-i18n/i18n"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll",
+                "sourceUrl": "https://github.com/jekyll/jekyll"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-avatar",
+                "sourceUrl": "https://github.com/jekyll/jekyll-avatar"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-coffeescript",
+                "sourceUrl": "https://github.com/jekyll/jekyll-coffeescript"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-commonmark",
+                "sourceUrl": "https://github.com/jekyll/jekyll-commonmark"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-commonmark-ghpages",
+                "sourceUrl": "https://github.com/github/jekyll-commonmark-ghpages"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-default-layout",
+                "sourceUrl": "https://github.com/benbalter/jekyll-default-layout"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-feed",
+                "sourceUrl": "https://github.com/jekyll/jekyll-feed"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-gist",
+                "sourceUrl": "https://github.com/jekyll/jekyll-gist"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-github-metadata",
+                "sourceUrl": "https://github.com/jekyll/github-metadata"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-mentions",
+                "sourceUrl": "https://github.com/jekyll/jekyll-mentions"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-optional-front-matter",
+                "sourceUrl": "https://github.com/benbalter/jekyll-optional-front-matter"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-paginate",
+                "sourceUrl": "https://github.com/jekyll/jekyll-paginate"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-readme-index",
+                "sourceUrl": "https://github.com/benbalter/jekyll-readme-index"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-redirect-from",
+                "sourceUrl": "https://github.com/jekyll/jekyll-redirect-from"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-relative-links",
+                "sourceUrl": "https://github.com/benbalter/jekyll-relative-links"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-remote-theme",
+                "sourceUrl": "https://github.com/benbalter/jekyll-remote-theme"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-sass-converter",
+                "sourceUrl": "https://github.com/jekyll/jekyll-sass-converter"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-seo-tag",
+                "sourceUrl": "https://github.com/jekyll/jekyll-seo-tag"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-sitemap",
+                "sourceUrl": "https://github.com/jekyll/jekyll-sitemap"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-swiss",
+                "sourceUrl": "https://github.com/broccolini/swiss"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-architect",
+                "sourceUrl": "https://github.com/pages-themes/architect"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-cayman",
+                "sourceUrl": "https://github.com/pages-themes/cayman"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-dinky",
+                "sourceUrl": "https://github.com/pages-themes/dinky"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-hacker",
+                "sourceUrl": "https://github.com/pages-themes/hacker"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-leap-day",
+                "sourceUrl": "https://github.com/pages-themes/leap-day"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-merlot",
+                "sourceUrl": "https://github.com/pages-themes/merlot"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-midnight",
+                "sourceUrl": "https://github.com/pages-themes/midnight"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-minimal",
+                "sourceUrl": "https://github.com/pages-themes/minimal"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-modernist",
+                "sourceUrl": "https://github.com/pages-themes/modernist"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-primer",
+                "sourceUrl": "https://github.com/pages-themes/primer"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-slate",
+                "sourceUrl": "https://github.com/pages-themes/slate"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-tactile",
+                "sourceUrl": "https://github.com/pages-themes/tactile"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-theme-time-machine",
+                "sourceUrl": "https://github.com/pages-themes/time-machine"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-titles-from-headings",
+                "sourceUrl": "https://github.com/benbalter/jekyll-titles-from-headings"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-watch",
+                "sourceUrl": "https://github.com/jekyll/jekyll-watch"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jemoji",
+                "sourceUrl": "https://github.com/jekyll/jemoji"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "kramdown",
+                "sourceUrl": "https://github.com/gettalong/kramdown"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "kramdown-parser-gfm",
+                "sourceUrl": "https://github.com/kramdown/parser-gfm"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "liquid",
+                "sourceUrl": "https://github.com/Shopify/liquid"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "listen",
+                "sourceUrl": "https://github.com/guard/listen"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "mercenary",
+                "sourceUrl": "https://github.com/jekyll/mercenary"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "minima",
+                "sourceUrl": "https://github.com/jekyll/minima"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "minitest",
+                "sourceUrl": "https://github.com/minitest/minitest"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "mini_portile2",
+                "sourceUrl": "https://github.com/flavorjones/mini_portile"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "multipart-post",
+                "sourceUrl": "https://github.com/socketry/multipart-post"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "nokogiri",
+                "sourceUrl": "https://github.com/sparklemotion/nokogiri"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "octokit",
+                "sourceUrl": "https://github.com/octokit/octokit.rb"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "pathutil",
+                "sourceUrl": "https://github.com/envygeeks/pathutil"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "public_suffix",
+                "sourceUrl": "https://github.com/weppos/publicsuffix-ruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rb-fsevent",
+                "sourceUrl": "https://github.com/guard/rb-fsevent"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rb-inotify",
+                "sourceUrl": "https://github.com/guard/rb-inotify"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rexml",
+                "sourceUrl": "https://github.com/ruby/rexml"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rouge",
+                "sourceUrl": "https://github.com/rouge-ruby/rouge"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "ruby-enum",
+                "sourceUrl": "https://github.com/dblock/ruby-enum"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rubyzip",
+                "sourceUrl": "https://github.com/rubyzip/rubyzip"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "safe_yaml",
+                "sourceUrl": "https://github.com/dtao/safe_yaml"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "sass",
+                "sourceUrl": "https://github.com/sass/ruby-sass"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "sass-listen",
+                "sourceUrl": "https://github.com/hixio-mh/listen"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "sawyer",
+                "sourceUrl": "https://github.com/lostisland/sawyer"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "simpleidn",
+                "sourceUrl": "https://github.com/mmriis/simpleidn"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "terminal-table",
+                "sourceUrl": "https://github.com/tj/terminal-table"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "thread_safe",
+                "sourceUrl": "https://github.com/ruby-concurrency/thread_safe"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "typhoeus",
+                "sourceUrl": "https://github.com/typhoeus/typhoeus"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "tzinfo",
+                "sourceUrl": "https://github.com/tzinfo/tzinfo"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "unf",
+                "sourceUrl": "https://github.com/knu/ruby-unf"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "unf_ext",
+                "sourceUrl": "https://github.com/knu/ruby-unf_ext"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "unicode-display_width",
+                "sourceUrl": "https://github.com/janlelis/unicode-display_width"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "zeitwerk",
+                "sourceUrl": "https://github.com/fxn/zeitwerk"
+            },
+            {
+                "dataSource": ".github/workflows/ci.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/ci.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/ci.yml",
+                "depName": "actions/setup-ruby",
+                "sourceUrl": "https://github.com/actions/setup-ruby"
+            }
+        ]
+    },
+    {
+        "repo": "efd",
+        "deps": []
+    },
+    {
+        "repo": "aste",
+        "deps": [
+            {
+                "dataSource": "requirements.txt",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "requirements.txt",
+                "depName": "sympy",
+                "sourceUrl": "https://github.com/sympy/sympy"
+            },
+            {
+                "dataSource": ".github/workflows/aste_ci.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/code_style.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/code_style.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/link_check.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/link_check.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/lint_markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/lint_markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": "tools/mesh-generators/requirements.txt",
+                "depName": "gmsh",
+                "sourceUrl": "https://github.com/ilonachan/gmsh"
+            },
+            {
+                "dataSource": "tools/mesh-generators/requirements.txt",
+                "depName": "meshio",
+                "sourceUrl": "https://github.com/nschloe/meshio"
+            },
+            {
+                "dataSource": "tools/mesh-generators/requirements.txt",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "tools/mesh-generators/requirements.txt",
+                "depName": "scipy",
+                "sourceUrl": "https://github.com/jasonmccampbell/scipy-refactor"
+            }
+        ]
+    },
+    {
+        "repo": "fem-shell",
+        "deps": []
+    },
+    {
+        "repo": "code_aster-adapter",
+        "deps": []
+    },
+    {
+        "repo": "su2-adapter",
+        "deps": []
+    },
+    {
+        "repo": "calculix-adapter",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/check-format.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-format.yml",
+                "depName": "jidicula/clang-format-action",
+                "sourceUrl": "https://github.com/jidicula/clang-format-action"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu_build.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu_build.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            }
+        ]
+    },
+    {
+        "repo": "fluent-adapter",
+        "deps": []
+    },
+    {
+        "repo": "comsol-adapter",
+        "deps": []
+    },
+    {
+        "repo": "tutorials",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "peter-evans/autopep8",
+                "sourceUrl": "https://github.com/peter-evans/autopep8"
+            },
+            {
+                "dataSource": ".github/workflows/check-scripts.yaml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-scripts.yaml",
+                "depName": "ludeeus/action-shellcheck",
+                "sourceUrl": "https://github.com/ludeeus/action-shellcheck"
+            },
+            {
+                "dataSource": "flow-over-heated-plate/plot-final-interface-temperature-requirements.txt",
+                "depName": "matplotlib",
+                "sourceUrl": "https://github.com/matplotlib/matplotlib"
+            },
+            {
+                "dataSource": "flow-over-heated-plate/plot-final-interface-temperature-requirements.txt",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "flow-over-heated-plate/plot-final-interface-temperature-requirements.txt",
+                "depName": "vtk",
+                "sourceUrl": "https://github.com/KitwareMedical/VTKPythonPackage"
+            },
+            {
+                "dataSource": "HT/partitioned-heat/fenics-fenics/requirements.txt",
+                "depName": "enum34",
+                "sourceUrl": "https://github.com/certik/enum34"
+            },
+            {
+                "dataSource": "HT/partitioned-heat/fenics-fenics/requirements.txt",
+                "depName": "fenics",
+                "sourceUrl": ""
+            },
+            {
+                "dataSource": "HT/partitioned-heat/fenics-fenics/requirements.txt",
+                "depName": "mpi4py",
+                "sourceUrl": "https://github.com/mpi4py/mpi4py"
+            },
+            {
+                "dataSource": "HT/partitioned-heat/fenics-fenics/requirements.txt",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "HT/partitioned-heat/fenics-fenics/requirements.txt",
+                "depName": "precice",
+                "sourceUrl": ""
+            }
+        ]
+    },
+    {
+        "repo": "openfoam-adapter",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/build-custom.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-custom.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "airvzxf/cache-anything-new-action",
+                "sourceUrl": "https://github.com/airvzxf/cache-anything-new-action"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "precice/setup-precice-action",
+                "sourceUrl": "https://github.com/precice/setup-precice-action"
+            },
+            {
+                "dataSource": ".github/workflows/check-format.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-format.yml",
+                "depName": "jidicula/clang-format-action",
+                "sourceUrl": "https://github.com/jidicula/clang-format-action"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/check-shell.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-shell.yml",
+                "depName": "ludeeus/action-shellcheck",
+                "sourceUrl": "https://github.com/ludeeus/action-shellcheck"
+            }
+        ]
+    },
+    {
+        "repo": "EventTimings",
+        "deps": []
+    },
+    {
+        "repo": "run.precice-frontend",
+        "deps": [
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@babel/code-frame",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@babel/highlight",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@babel/runtime",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/history",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/node",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/prop-types",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/react",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/react-dom",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/react-redux",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/react-router",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/react-router-dom",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/react-router-redux",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "@types/redux-immutable",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "abbrev",
+                "sourceUrl": "https://github.com/npm/abbrev-js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "accepts",
+                "sourceUrl": "https://github.com/jshttp/accepts"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "acorn",
+                "sourceUrl": "https://github.com/acornjs/acorn"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "acorn",
+                "sourceUrl": "https://github.com/acornjs/acorn"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "acorn-dynamic-import",
+                "sourceUrl": "https://github.com/kesne/acorn-dynamic-import"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "after",
+                "sourceUrl": "https://github.com/Raynos/after"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ajv",
+                "sourceUrl": "https://github.com/ajv-validator/ajv"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ajv",
+                "sourceUrl": "https://github.com/ajv-validator/ajv"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ajv",
+                "sourceUrl": "https://github.com/ajv-validator/ajv"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ajv-keywords",
+                "sourceUrl": "https://github.com/ajv-validator/ajv-keywords"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ajv-keywords",
+                "sourceUrl": "https://github.com/ajv-validator/ajv-keywords"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "align-text",
+                "sourceUrl": "https://github.com/jonschlinkert/align-text"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "alphanum-sort",
+                "sourceUrl": "https://github.com/TrySound/alphanum-sort"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "amdefine",
+                "sourceUrl": "https://github.com/jrburke/amdefine"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-gray",
+                "sourceUrl": "https://github.com/jonschlinkert/ansi-gray"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-html",
+                "sourceUrl": "https://github.com/Tjatse/ansi-html"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-regex",
+                "sourceUrl": "https://github.com/chalk/ansi-regex"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-regex",
+                "sourceUrl": "https://github.com/chalk/ansi-regex"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-styles",
+                "sourceUrl": "https://github.com/chalk/ansi-styles"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-styles",
+                "sourceUrl": "https://github.com/chalk/ansi-styles"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ansi-wrap",
+                "sourceUrl": "https://github.com/jonschlinkert/ansi-wrap"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "anymatch",
+                "sourceUrl": "https://github.com/micromatch/anymatch"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "aproba",
+                "sourceUrl": "https://github.com/iarna/aproba"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "archive-type",
+                "sourceUrl": "https://github.com/kevva/archive-type"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "are-we-there-yet",
+                "sourceUrl": "https://github.com/npm/are-we-there-yet"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "argparse",
+                "sourceUrl": "https://github.com/nodeca/argparse"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "arr-diff",
+                "sourceUrl": "https://github.com/jonschlinkert/arr-diff"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "arr-diff",
+                "sourceUrl": "https://github.com/jonschlinkert/arr-diff"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "arr-flatten",
+                "sourceUrl": "https://github.com/jonschlinkert/arr-flatten"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "arr-union",
+                "sourceUrl": "https://github.com/jonschlinkert/arr-union"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-differ",
+                "sourceUrl": "https://github.com/sindresorhus/array-differ"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-find-index",
+                "sourceUrl": "https://github.com/sindresorhus/array-find-index"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-flatten",
+                "sourceUrl": "https://github.com/blakeembrey/array-flatten"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-flatten",
+                "sourceUrl": "https://github.com/blakeembrey/array-flatten"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-includes",
+                "sourceUrl": "https://github.com/es-shims/array-includes"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-union",
+                "sourceUrl": "https://github.com/sindresorhus/array-union"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-uniq",
+                "sourceUrl": "https://github.com/sindresorhus/array-uniq"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-unique",
+                "sourceUrl": "https://github.com/jonschlinkert/array-unique"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "array-unique",
+                "sourceUrl": "https://github.com/jonschlinkert/array-unique"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "arraybuffer.slice",
+                "sourceUrl": "https://github.com/rase-/arraybuffer.slice"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "arrify",
+                "sourceUrl": "https://github.com/sindresorhus/arrify"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "asap",
+                "sourceUrl": "https://github.com/kriskowal/asap"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "asn1",
+                "sourceUrl": "https://github.com/TritonDataCenter/node-asn1"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "asn1.js",
+                "sourceUrl": "https://github.com/indutny/asn1.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "assert",
+                "sourceUrl": "https://github.com/browserify/commonjs-assert"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "assert-plus",
+                "sourceUrl": "https://github.com/TritonDataCenter/node-assert-plus"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "assign-symbols",
+                "sourceUrl": "https://github.com/jonschlinkert/assign-symbols"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ast-transform",
+                "sourceUrl": "https://github.com/hughsk/ast-transform"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "ast-types",
+                "sourceUrl": "https://github.com/benjamn/ast-types"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "async",
+                "sourceUrl": "https://github.com/caolan/async"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "async-each",
+                "sourceUrl": "https://github.com/paulmillr/async-each"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "async-each-series",
+                "sourceUrl": "https://github.com/jb55/async-each-series"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "async-foreach",
+                "sourceUrl": "https://github.com/cowboy/javascript-sync-async-foreach"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "async-limiter",
+                "sourceUrl": "https://github.com/STRML/async-limiter"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "asynckit",
+                "sourceUrl": "https://github.com/alexindigo/asynckit"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "atob",
+                "sourceUrl": "https://github.com/HorseAJ86/node-browser-compat"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "autoprefixer",
+                "sourceUrl": "https://github.com/postcss/autoprefixer"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "autoprefixer",
+                "sourceUrl": "https://github.com/postcss/autoprefixer"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "awesome-typescript-loader",
+                "sourceUrl": "https://github.com/s-panferov/awesome-typescript-loader"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "aws-sign2",
+                "sourceUrl": "https://github.com/request/aws-sign"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "aws4",
+                "sourceUrl": "https://github.com/mhart/aws4"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-code-frame",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-core",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-generator",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-call-delegate",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-define-map",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-function-name",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-get-function-arity",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-hoist-variables",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-optimise-call-expression",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-regex",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helper-replace-supers",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-helpers",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-loader",
+                "sourceUrl": "https://github.com/babel/babel-loader"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-messages",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-check-es2015-constants",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-arrow-functions",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-block-scoped-functions",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-block-scoping",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-classes",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-computed-properties",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-destructuring",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-duplicate-keys",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-for-of",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-function-name",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-literals",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-modules-amd",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-modules-commonjs",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-modules-systemjs",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-modules-umd",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-object-super",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-parameters",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-shorthand-properties",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-spread",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-sticky-regex",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-template-literals",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-typeof-symbol",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-es2015-unicode-regex",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-regenerator",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-plugin-transform-strict-mode",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-preset-es2015",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-register",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-runtime",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-template",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-traverse",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babel-types",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "babylon",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "backo2",
+                "sourceUrl": "https://github.com/mokesmokes/backo"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "balanced-match",
+                "sourceUrl": "https://github.com/juliangruber/balanced-match"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "balanced-match",
+                "sourceUrl": "https://github.com/juliangruber/balanced-match"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "base",
+                "sourceUrl": "https://github.com/base/base"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "base64-arraybuffer",
+                "sourceUrl": "https://github.com/niklasvh/base64-arraybuffer"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "base64-js",
+                "sourceUrl": "https://github.com/beatgammit/base64-js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "base64id",
+                "sourceUrl": "https://github.com/faeldt/base64id"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "batch",
+                "sourceUrl": "https://github.com/visionmedia/batch"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bcrypt-pbkdf",
+                "sourceUrl": "https://github.com/TritonDataCenter/node-bcrypt-pbkdf"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "beeper",
+                "sourceUrl": "https://github.com/sindresorhus/beeper"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "better-assert",
+                "sourceUrl": "https://github.com/tj/better-assert"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "big.js",
+                "sourceUrl": "https://github.com/MikeMcl/big.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "big.js",
+                "sourceUrl": "https://github.com/MikeMcl/big.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bin-build",
+                "sourceUrl": "https://github.com/kevva/bin-build"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bin-build",
+                "sourceUrl": "https://github.com/kevva/bin-build"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bin-check",
+                "sourceUrl": "https://github.com/kevva/bin-check"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bin-version",
+                "sourceUrl": "https://github.com/sindresorhus/bin-version"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bin-version-check",
+                "sourceUrl": "https://github.com/sindresorhus/bin-version-check"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bin-wrapper",
+                "sourceUrl": "https://github.com/kevva/bin-wrapper"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "binary-extensions",
+                "sourceUrl": "https://github.com/sindresorhus/binary-extensions"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bindings",
+                "sourceUrl": "https://github.com/TooTallNate/node-bindings"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bl",
+                "sourceUrl": "https://github.com/rvagg/bl"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "blob",
+                "sourceUrl": "https://github.com/webmodules/blob"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "block-stream",
+                "sourceUrl": "https://github.com/isaacs/block-stream"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bluebird",
+                "sourceUrl": "https://github.com/petkaantonov/bluebird"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bn.js",
+                "sourceUrl": "https://github.com/indutny/bn.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "body-parser",
+                "sourceUrl": "https://github.com/expressjs/body-parser"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bonjour",
+                "sourceUrl": "https://github.com/watson/bonjour"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "boolbase",
+                "sourceUrl": "https://github.com/fb55/boolbase"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "brace-expansion",
+                "sourceUrl": "https://github.com/juliangruber/brace-expansion"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "braces",
+                "sourceUrl": "https://github.com/micromatch/braces"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "braces",
+                "sourceUrl": "https://github.com/micromatch/braces"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "brorand",
+                "sourceUrl": "https://github.com/indutny/brorand"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browser-resolve",
+                "sourceUrl": "https://github.com/browserify/browser-resolve"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-aes",
+                "sourceUrl": "https://github.com/browserify/browserify-aes"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-cipher",
+                "sourceUrl": "https://github.com/browserify/browserify-cipher"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-des",
+                "sourceUrl": "https://github.com/browserify/browserify-des"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-optional",
+                "sourceUrl": "https://github.com/devongovett/browserify-optional"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-rsa",
+                "sourceUrl": "https://github.com/browserify/browserify-rsa"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-sign",
+                "sourceUrl": "https://github.com/browserify/browserify-sign"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserify-zlib",
+                "sourceUrl": "https://github.com/browserify/browserify-zlib"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserslist",
+                "sourceUrl": "https://github.com/browserslist/browserslist"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "browserslist",
+                "sourceUrl": "https://github.com/browserslist/browserslist"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer",
+                "sourceUrl": "https://github.com/feross/buffer"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer",
+                "sourceUrl": "https://github.com/feross/buffer"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-alloc",
+                "sourceUrl": "https://github.com/LinusU/buffer-alloc"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-alloc-unsafe",
+                "sourceUrl": "https://github.com/LinusU/buffer-alloc-unsafe"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-crc32",
+                "sourceUrl": "https://github.com/brianloveswords/buffer-crc32"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-fill",
+                "sourceUrl": "https://github.com/LinusU/buffer-fill"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-from",
+                "sourceUrl": "https://github.com/LinusU/buffer-from"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-indexof",
+                "sourceUrl": "https://github.com/soldair/node-buffer-indexof"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-to-vinyl",
+                "sourceUrl": "https://github.com/kevva/buffer-to-vinyl"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "buffer-xor",
+                "sourceUrl": "https://github.com/browserify/buffer-xor"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "builtin-modules",
+                "sourceUrl": "https://github.com/sindresorhus/builtin-modules"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "builtin-status-codes",
+                "sourceUrl": "https://github.com/bendrucker/builtin-status-codes"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bytes",
+                "sourceUrl": "https://github.com/visionmedia/bytes.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "bytes",
+                "sourceUrl": "https://github.com/visionmedia/bytes.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "cacache",
+                "sourceUrl": "https://github.com/zkat/cacache"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "cache-base",
+                "sourceUrl": "https://github.com/jonschlinkert/cache-base"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caller-callsite",
+                "sourceUrl": "https://github.com/sindresorhus/caller-callsite"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caller-path",
+                "sourceUrl": "https://github.com/sindresorhus/caller-path"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "callsite",
+                "sourceUrl": "https://github.com/tj/callsite"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "callsites",
+                "sourceUrl": "https://github.com/sindresorhus/callsites"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "camel-case",
+                "sourceUrl": "https://github.com/blakeembrey/change-case"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "camelcase",
+                "sourceUrl": "https://github.com/sindresorhus/camelcase"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "camelcase",
+                "sourceUrl": "https://github.com/sindresorhus/camelcase"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "camelcase",
+                "sourceUrl": "https://github.com/sindresorhus/camelcase"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "camelcase-keys",
+                "sourceUrl": "https://github.com/sindresorhus/camelcase-keys"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caniuse-api",
+                "sourceUrl": "https://github.com/Nyalab/caniuse-api"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caniuse-db",
+                "sourceUrl": "https://github.com/Fyrd/caniuse"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caniuse-lite",
+                "sourceUrl": "https://github.com/browserslist/caniuse-lite"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "capture-stack-trace",
+                "sourceUrl": "https://github.com/sindresorhus/capture-stack-trace"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caseless",
+                "sourceUrl": "https://github.com/request/caseless"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caw",
+                "sourceUrl": "https://github.com/kevva/caw"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "caw",
+                "sourceUrl": "https://github.com/kevva/caw"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "center-align",
+                "sourceUrl": "https://github.com/jonschlinkert/center-align"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "chalk",
+                "sourceUrl": "https://github.com/chalk/chalk"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "chalk",
+                "sourceUrl": "https://github.com/chalk/chalk"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "chokidar",
+                "sourceUrl": "https://github.com/paulmillr/chokidar"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "chownr",
+                "sourceUrl": "https://github.com/isaacs/chownr"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "chownr",
+                "sourceUrl": "https://github.com/isaacs/chownr"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "cipher-base",
+                "sourceUrl": "https://github.com/browserify/cipher-base"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "circular-json",
+                "sourceUrl": "https://github.com/WebReflection/circular-json"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clap",
+                "sourceUrl": "https://github.com/lahmatiy/clap"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "class-utils",
+                "sourceUrl": "https://github.com/jonschlinkert/class-utils"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "classnames",
+                "sourceUrl": "https://github.com/JedWatson/classnames"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clean-css",
+                "sourceUrl": "https://github.com/clean-css/clean-css"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "cliui",
+                "sourceUrl": "https://github.com/yargs/cliui"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "cliui",
+                "sourceUrl": "https://github.com/yargs/cliui"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clone",
+                "sourceUrl": "https://github.com/pvorb/clone"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clone",
+                "sourceUrl": "https://github.com/pvorb/clone"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clone-deep",
+                "sourceUrl": "https://github.com/jonschlinkert/clone-deep"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clone-regexp",
+                "sourceUrl": "https://github.com/sindresorhus/clone-regexp"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "clone-stats",
+                "sourceUrl": "https://github.com/hughsk/clone-stats"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "co",
+                "sourceUrl": "https://github.com/tj/co"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "co",
+                "sourceUrl": "https://github.com/tj/co"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "coa",
+                "sourceUrl": "https://github.com/veged/coa"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "code-point-at",
+                "sourceUrl": "https://github.com/sindresorhus/code-point-at"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "collection-visit",
+                "sourceUrl": "https://github.com/jonschlinkert/collection-visit"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "color",
+                "sourceUrl": "https://github.com/Qix-/color"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "color-convert",
+                "sourceUrl": "https://github.com/Qix-/color-convert"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "color-diff",
+                "sourceUrl": "https://github.com/markusn/color-diff"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "color-name",
+                "sourceUrl": "https://github.com/colorjs/color-name"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "color-string",
+                "sourceUrl": "https://github.com/Qix-/color-string"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "color-support",
+                "sourceUrl": "https://github.com/isaacs/color-support"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "colorguard",
+                "sourceUrl": "https://github.com/SlexAxton/css-colorguard"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "colormin",
+                "sourceUrl": "https://github.com/ben-eb/colormin"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "colors",
+                "sourceUrl": "https://github.com/Marak/colors.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "colour",
+                "sourceUrl": "https://github.com/dcodeIO/colour.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "combined-stream",
+                "sourceUrl": "https://github.com/felixge/node-combined-stream"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "commander",
+                "sourceUrl": "https://github.com/tj/commander.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "commander",
+                "sourceUrl": "https://github.com/tj/commander.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "commander",
+                "sourceUrl": "https://github.com/tj/commander.js"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "commondir",
+                "sourceUrl": ""
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "component-bind",
+                "sourceUrl": "https://github.com/component/bind"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "component-emitter",
+                "sourceUrl": "https://github.com/component/emitter"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "component-inherit",
+                "sourceUrl": "https://github.com/component/inherit"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "compressible",
+                "sourceUrl": "https://github.com/jshttp/compressible"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "compression",
+                "sourceUrl": "https://github.com/expressjs/compression"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "computed-style",
+                "sourceUrl": "https://github.com/twolfson/computedStyle"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "concat-map",
+                "sourceUrl": ""
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "concat-stream",
+                "sourceUrl": "https://github.com/maxogden/concat-stream"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "config",
+                "sourceUrl": "https://github.com/node-config/node-config"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "config-chain",
+                "sourceUrl": "https://github.com/dawsbot/config-chain"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "connect-history-api-fallback",
+                "sourceUrl": "https://github.com/bripkens/connect-history-api-fallback"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "console-browserify",
+                "sourceUrl": "https://github.com/browserify/console-browserify"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "console-control-strings",
+                "sourceUrl": "https://github.com/iarna/console-control-strings"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "console-stream",
+                "sourceUrl": "https://github.com/Raynos/console-stream"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "constants-browserify",
+                "sourceUrl": "https://github.com/juliangruber/constants-browserify"
+            },
+            {
+                "dataSource": "package-lock.json",
+                "depName": "content-disposition",
+                "sourceUrl": "https://github.com/jshttp/content-disposition"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/node",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/react",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/react-dom",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/react-redux",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/react-router-dom",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/react-router-redux",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "@types/redux-immutable",
+                "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "autoprefixer",
+                "sourceUrl": "https://github.com/postcss/autoprefixer"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "awesome-typescript-loader",
+                "sourceUrl": "https://github.com/s-panferov/awesome-typescript-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "babel-core",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "babel-loader",
+                "sourceUrl": "https://github.com/babel/babel-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "babel-preset-es2015",
+                "sourceUrl": "https://github.com/babel/babel"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "copy-webpack-plugin",
+                "sourceUrl": "https://github.com/webpack-contrib/copy-webpack-plugin"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "cross-env",
+                "sourceUrl": "https://github.com/kentcdodds/cross-env"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "css-loader",
+                "sourceUrl": "https://github.com/webpack-contrib/css-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "express",
+                "sourceUrl": "https://github.com/expressjs/express"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "express",
+                "sourceUrl": "https://github.com/expressjs/express"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "extract-text-webpack-plugin",
+                "sourceUrl": "https://github.com/webpack-contrib/extract-text-webpack-plugin"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "file-loader",
+                "sourceUrl": "https://github.com/webpack-contrib/file-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "font-awesome",
+                "sourceUrl": "https://github.com/FortAwesome/Font-Awesome"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "history",
+                "sourceUrl": "https://github.com/remix-run/history"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "html-webpack-plugin",
+                "sourceUrl": "https://github.com/jantimon/html-webpack-plugin"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "image-webpack-loader",
+                "sourceUrl": "https://github.com/tcoopman/image-webpack-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "immutable",
+                "sourceUrl": "https://github.com/immutable-js/immutable-js"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "minimist",
+                "sourceUrl": "https://github.com/minimistjs/minimist"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "node-sass",
+                "sourceUrl": "https://github.com/sass/node-sass"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "normalize.css",
+                "sourceUrl": "https://github.com/necolas/normalize.css"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "postcss-loader",
+                "sourceUrl": "https://github.com/webpack-contrib/postcss-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "prop-types",
+                "sourceUrl": "https://github.com/facebook/prop-types"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react",
+                "sourceUrl": "https://github.com/facebook/react"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-burger-menu",
+                "sourceUrl": "https://github.com/negomi/react-burger-menu"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-circular-progressbar",
+                "sourceUrl": "https://github.com/kevinsqi/react-circular-progressbar"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-dom",
+                "sourceUrl": "https://github.com/facebook/react"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-ga",
+                "sourceUrl": "https://github.com/react-ga/react-ga"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-hogan",
+                "sourceUrl": "https://github.com/GregoryPotdevin/react-hogan"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-html-video",
+                "sourceUrl": "https://github.com/sericaia/react-html-video"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-html5video",
+                "sourceUrl": "https://github.com/mderrick/react-html5video"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-modal",
+                "sourceUrl": "https://github.com/reactjs/react-modal"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-progress-steps",
+                "sourceUrl": "https://github.com/simonflk/react-progress-steps"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-redux",
+                "sourceUrl": "https://github.com/reduxjs/react-redux"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-router",
+                "sourceUrl": "https://github.com/remix-run/react-router"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-router-dom",
+                "sourceUrl": "https://github.com/remix-run/react-router"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-router-redux",
+                "sourceUrl": "https://github.com/remix-run/react-router"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-scrollbar",
+                "sourceUrl": "https://github.com/souhe/reactScrollbar"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-syntax-highlighter",
+                "sourceUrl": "https://github.com/react-syntax-highlighter/react-syntax-highlighter"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-tabs",
+                "sourceUrl": "https://github.com/reactjs/react-tabs"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-tippy",
+                "sourceUrl": "https://github.com/tvkhoa/react-tippy"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "react-web-tabs",
+                "sourceUrl": "https://github.com/marcuslindfeldt/react-web-tabs"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "redux",
+                "sourceUrl": "https://github.com/reduxjs/redux"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "redux-immutable",
+                "sourceUrl": "https://github.com/gajus/redux-immutable"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "redux-socket.io",
+                "sourceUrl": "https://github.com/itaylor/redux-socket.io"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "reselect",
+                "sourceUrl": "https://github.com/reduxjs/reselect"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "rimraf",
+                "sourceUrl": "https://github.com/isaacs/rimraf"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "sass-loader",
+                "sourceUrl": "https://github.com/webpack-contrib/sass-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "socket.io",
+                "sourceUrl": "https://github.com/socketio/socket.io"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "socket.io-client",
+                "sourceUrl": "https://github.com/socketio/socket.io-client"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "source-map-loader",
+                "sourceUrl": "https://github.com/webpack-contrib/source-map-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "stylelint",
+                "sourceUrl": "https://github.com/stylelint/stylelint"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "stylelint-order",
+                "sourceUrl": "https://github.com/hudochenkov/stylelint-order"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "stylelint-scss",
+                "sourceUrl": "https://github.com/stylelint-scss/stylelint-scss"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "tslint",
+                "sourceUrl": "https://github.com/palantir/tslint"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "tslint-react",
+                "sourceUrl": "https://github.com/palantir/tslint-react"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "typescript",
+                "sourceUrl": "https://github.com/microsoft/TypeScript"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "typings-for-css-modules-loader",
+                "sourceUrl": "https://github.com/Jimdo/typings-for-css-modules-loader"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "victory",
+                "sourceUrl": "https://github.com/FormidableLabs/victory"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "video-react",
+                "sourceUrl": "https://github.com/video-react/video-react"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "webpack",
+                "sourceUrl": "https://github.com/webpack/webpack"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "webpack-dev-server",
+                "sourceUrl": "https://github.com/webpack/webpack-dev-server"
+            }
+        ]
+    },
+    {
+        "repo": "run.precice-backend",
+        "deps": [
+            {
+                "dataSource": "package.json",
+                "depName": "config",
+                "sourceUrl": "https://github.com/node-config/node-config"
+            },
+            {
+                "dataSource": "package.json",
+                "depName": "socket.io",
+                "sourceUrl": "https://github.com/socketio/socket.io"
+            }
+        ]
+    },
+    {
+        "repo": "systemtests",
+        "deps": []
+    },
+    {
+        "repo": "fenics-adapter",
+        "deps": [
+            {
+                "dataSource": "setup.py",
+                "depName": "mpi4py",
+                "sourceUrl": "https://github.com/mpi4py/mpi4py"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "pyprecice",
+                "sourceUrl": "https://github.com/precice/python-bindings"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "scipy",
+                "sourceUrl": "https://github.com/jasonmccampbell/scipy-refactor"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "peter-evans/autopep8",
+                "sourceUrl": "https://github.com/peter-evans/autopep8"
+            },
+            {
+                "dataSource": ".github/workflows/run-tutorials.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            }
+        ]
+    },
+    {
+        "repo": "dealii-adapter",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/building.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/indent.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/indent.yml",
+                "depName": "DoozyX/clang-format-lint-action",
+                "sourceUrl": "https://github.com/DoozyX/clang-format-lint-action"
+            }
+        ]
+    },
+    {
+        "repo": "precice_st_output",
+        "deps": []
+    },
+    {
+        "repo": "controller",
+        "deps": []
+    },
+    {
+        "repo": "mbdyn-adapter",
+        "deps": []
+    },
+    {
+        "repo": "lsdyna-adapter",
+        "deps": []
+    },
+    {
+        "repo": "config-visualizer",
+        "deps": [
+            {
+                "dataSource": "setup.py",
+                "depName": "lxml",
+                "sourceUrl": "https://github.com/lxml/lxml"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "pydot",
+                "sourceUrl": "https://github.com/pydot/pydot"
+            }
+        ]
+    },
+    {
+        "repo": "python-bindings",
+        "deps": [
+            {
+                "dataSource": "setup.py",
+                "depName": "mpi4py",
+                "sourceUrl": "https://github.com/mpi4py/mpi4py"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "BSFishy/pip-action",
+                "sourceUrl": "https://github.com/BSFishy/pip-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-env.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-env.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-env.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-env.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-spack.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "peter-evans/autopep8",
+                "sourceUrl": "https://github.com/peter-evans/autopep8"
+            },
+            {
+                "dataSource": ".github/workflows/pythonpublish.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/pythonpublish.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/pythonpublish.yml",
+                "depName": "BSFishy/pip-action",
+                "sourceUrl": "https://github.com/BSFishy/pip-action"
+            },
+            {
+                "dataSource": ".github/workflows/run-solverdummy.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": "examples/solverdummy/requirements.txt",
+                "depName": "argparse",
+                "sourceUrl": "https://github.com/ThomasWaldmann/argparse"
+            },
+            {
+                "dataSource": "examples/solverdummy/requirements.txt",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "examples/solverdummy/requirements.txt",
+                "depName": "pyprecice",
+                "sourceUrl": "https://github.com/precice/python-bindings"
+            }
+        ]
+    },
+    {
+        "repo": "matlab-bindings",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/test.yml",
+                "depName": "matlab-actions/run-command",
+                "sourceUrl": "https://github.com/matlab-actions/run-command"
+            },
+            {
+                "dataSource": ".github/workflows/test.yml",
+                "depName": "matlab-actions/setup-matlab",
+                "sourceUrl": "https://github.com/matlab-actions/setup-matlab"
+            },
+            {
+                "dataSource": ".github/workflows/test.yml",
+                "depName": "precice/setup-precice-action",
+                "sourceUrl": "https://github.com/precice/setup-precice-action"
+            }
+        ]
+    },
+    {
+        "repo": "6dof-rigid-body-solver",
+        "deps": []
+    },
+    {
+        "repo": "fortran-module",
+        "deps": []
+    },
+    {
+        "repo": "ci-images",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/archlinux-pr.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/archlinux.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/archlinux.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/fedora-pr.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/fedora.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/fedora.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/monthly.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/monthly.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu-2004-pr.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu-2004.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu-2004.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu-2204-pr.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu-2204.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/ubuntu-2204.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            }
+        ]
+    },
+    {
+        "repo": "doxygen",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/deploy.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/deploy.yml",
+                "depName": "peaceiris/actions-gh-pages",
+                "sourceUrl": "https://github.com/peaceiris/actions-gh-pages"
+            }
+        ]
+    },
+    {
+        "repo": "precice.github.io",
+        "deps": [
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll",
+                "sourceUrl": "https://github.com/jekyll/jekyll"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll-algolia",
+                "sourceUrl": "https://github.com/algolia/jekyll-algolia"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll-redirect-from",
+                "sourceUrl": "https://github.com/jekyll/jekyll-redirect-from"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll-relative-links",
+                "sourceUrl": "https://github.com/benbalter/jekyll-relative-links"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll-seo-tag",
+                "sourceUrl": "https://github.com/jekyll/jekyll-seo-tag"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll-sitemap",
+                "sourceUrl": "https://github.com/jekyll/jekyll-sitemap"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jekyll-watch",
+                "sourceUrl": "https://github.com/jekyll/jekyll-watch"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "jemoji",
+                "sourceUrl": "https://github.com/jekyll/jemoji"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "nokogiri",
+                "sourceUrl": "https://github.com/sparklemotion/nokogiri"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "open-uri",
+                "sourceUrl": "https://github.com/ruby/open-uri"
+            },
+            {
+                "dataSource": "Gemfile",
+                "depName": "webrick",
+                "sourceUrl": "https://github.com/ruby/webrick"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "activesupport",
+                "sourceUrl": "https://github.com/rails/rails"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "addressable",
+                "sourceUrl": "https://github.com/sporkmonger/addressable"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "algoliasearch",
+                "sourceUrl": "https://github.com/acidburn0zzz/algoliasearch-client-ruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "algolia_html_extractor",
+                "sourceUrl": "https://github.com/algolia/html-extractor"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "colorator",
+                "sourceUrl": "https://github.com/octopress/colorator"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "concurrent-ruby",
+                "sourceUrl": "https://github.com/ruby-concurrency/concurrent-ruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "date",
+                "sourceUrl": "https://github.com/ruby/date"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "em-websocket",
+                "sourceUrl": "https://github.com/igrigorik/em-websocket"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "eventmachine",
+                "sourceUrl": "https://github.com/eventmachine/eventmachine"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "ffi",
+                "sourceUrl": "https://github.com/ffi/ffi"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "filesize",
+                "sourceUrl": "https://github.com/dominikh/filesize"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "forwardable-extended",
+                "sourceUrl": "https://github.com/envygeeks/forwardable-extended"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "gemoji",
+                "sourceUrl": "https://github.com/github/gemoji"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "html-pipeline",
+                "sourceUrl": "https://github.com/gjtorikian/html-pipeline"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "httpclient",
+                "sourceUrl": "https://github.com/nahi/httpclient"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "http_parser.rb",
+                "sourceUrl": "https://github.com/tmm1/http_parser.rb"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "i18n",
+                "sourceUrl": "https://github.com/ruby-i18n/i18n"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll",
+                "sourceUrl": "https://github.com/jekyll/jekyll"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-algolia",
+                "sourceUrl": "https://github.com/algolia/jekyll-algolia"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-redirect-from",
+                "sourceUrl": "https://github.com/jekyll/jekyll-redirect-from"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-relative-links",
+                "sourceUrl": "https://github.com/benbalter/jekyll-relative-links"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-sass-converter",
+                "sourceUrl": "https://github.com/jekyll/jekyll-sass-converter"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-seo-tag",
+                "sourceUrl": "https://github.com/jekyll/jekyll-seo-tag"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-sitemap",
+                "sourceUrl": "https://github.com/jekyll/jekyll-sitemap"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jekyll-watch",
+                "sourceUrl": "https://github.com/jekyll/jekyll-watch"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "jemoji",
+                "sourceUrl": "https://github.com/jekyll/jemoji"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "json",
+                "sourceUrl": "https://github.com/flori/json"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "kramdown",
+                "sourceUrl": "https://github.com/gettalong/kramdown"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "kramdown-parser-gfm",
+                "sourceUrl": "https://github.com/kramdown/parser-gfm"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "liquid",
+                "sourceUrl": "https://github.com/Shopify/liquid"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "listen",
+                "sourceUrl": "https://github.com/guard/listen"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "mercenary",
+                "sourceUrl": "https://github.com/jekyll/mercenary"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "minitest",
+                "sourceUrl": "https://github.com/minitest/minitest"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "mini_portile2",
+                "sourceUrl": "https://github.com/flavorjones/mini_portile"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "nokogiri",
+                "sourceUrl": "https://github.com/sparklemotion/nokogiri"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "open-uri",
+                "sourceUrl": "https://github.com/ruby/open-uri"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "pathutil",
+                "sourceUrl": "https://github.com/envygeeks/pathutil"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "progressbar",
+                "sourceUrl": "https://github.com/jfelchner/ruby-progressbar"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "public_suffix",
+                "sourceUrl": "https://github.com/weppos/publicsuffix-ruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "racc",
+                "sourceUrl": "https://github.com/ruby/racc"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rb-fsevent",
+                "sourceUrl": "https://github.com/guard/rb-fsevent"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rb-inotify",
+                "sourceUrl": "https://github.com/guard/rb-inotify"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rexml",
+                "sourceUrl": "https://github.com/ruby/rexml"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "rouge",
+                "sourceUrl": "https://github.com/rouge-ruby/rouge"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "safe_yaml",
+                "sourceUrl": "https://github.com/dtao/safe_yaml"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "sassc",
+                "sourceUrl": "https://github.com/sass/sassc-ruby"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "stringio",
+                "sourceUrl": "https://github.com/ruby/stringio"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "terminal-table",
+                "sourceUrl": "https://github.com/tj/terminal-table"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "time",
+                "sourceUrl": "https://github.com/ruby/time"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "tzinfo",
+                "sourceUrl": "https://github.com/tzinfo/tzinfo"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "unicode-display_width",
+                "sourceUrl": "https://github.com/janlelis/unicode-display_width"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "uri",
+                "sourceUrl": "https://github.com/ruby/uri"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "verbal_expressions",
+                "sourceUrl": "https://github.com/ryan-endacott/verbal_expressions"
+            },
+            {
+                "dataSource": "Gemfile.lock",
+                "depName": "webrick",
+                "sourceUrl": "https://github.com/ruby/webrick"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "ruby/setup-ruby",
+                "sourceUrl": "https://github.com/ruby/setup-ruby"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/deploy.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/deploy.yml",
+                "depName": "peaceiris/actions-gh-pages",
+                "sourceUrl": "https://github.com/peaceiris/actions-gh-pages"
+            },
+            {
+                "dataSource": ".github/workflows/deploy.yml",
+                "depName": "ruby/setup-ruby",
+                "sourceUrl": "https://github.com/ruby/setup-ruby"
+            },
+            {
+                "dataSource": ".github/workflows/update-submodules.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/update-submodules.yml",
+                "depName": "ad-m/github-push-action",
+                "sourceUrl": "https://github.com/ad-m/github-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/update.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/update.yml",
+                "depName": "ad-m/github-push-action",
+                "sourceUrl": "https://github.com/ad-m/github-push-action"
+            }
+        ]
+    },
+    {
+        "repo": "vm",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/check-shell.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-shell.yml",
+                "depName": "ludeeus/action-shellcheck",
+                "sourceUrl": "https://github.com/ludeeus/action-shellcheck"
+            }
+        ]
+    },
+    {
+        "repo": "elmer-adapter",
+        "deps": []
+    },
+    {
+        "repo": "dune-adapter",
+        "deps": []
+    },
+    {
+        "repo": "PreCICE.jl",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "julia-actions/julia-buildpkg",
+                "sourceUrl": "https://github.com/julia-actions/julia-buildpkg"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "julia-actions/julia-runtest",
+                "sourceUrl": "https://github.com/julia-actions/julia-runtest"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "julia-actions/setup-julia",
+                "sourceUrl": "https://github.com/julia-actions/setup-julia"
+            },
+            {
+                "dataSource": ".github/workflows/BuildPreCICE.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/BuildPreCICE.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/BuildPreCICE.yml",
+                "depName": "julia-actions/julia-buildpkg",
+                "sourceUrl": "https://github.com/julia-actions/julia-buildpkg"
+            },
+            {
+                "dataSource": ".github/workflows/BuildPreCICE.yml",
+                "depName": "julia-actions/setup-julia",
+                "sourceUrl": "https://github.com/julia-actions/setup-julia"
+            },
+            {
+                "dataSource": ".github/workflows/format.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/format.yml",
+                "depName": "julia-actions/setup-julia",
+                "sourceUrl": "https://github.com/julia-actions/setup-julia"
+            },
+            {
+                "dataSource": ".github/workflows/RunTests.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/RunTests.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/RunTests.yml",
+                "depName": "julia-actions/julia-buildpkg",
+                "sourceUrl": "https://github.com/julia-actions/julia-buildpkg"
+            },
+            {
+                "dataSource": ".github/workflows/RunTests.yml",
+                "depName": "julia-actions/julia-runtest",
+                "sourceUrl": "https://github.com/julia-actions/julia-runtest"
+            },
+            {
+                "dataSource": ".github/workflows/RunTests.yml",
+                "depName": "julia-actions/setup-julia",
+                "sourceUrl": "https://github.com/julia-actions/setup-julia"
+            },
+            {
+                "dataSource": ".github/workflows/TagBot.yml",
+                "depName": "JuliaRegistries/TagBot",
+                "sourceUrl": "https://github.com/JuliaRegistries/TagBot"
+            },
+            {
+                "dataSource": ".github/workflows/TestJuliaVersions.yml",
+                "depName": "actions/cache",
+                "sourceUrl": "https://github.com/actions/cache"
+            },
+            {
+                "dataSource": ".github/workflows/TestJuliaVersions.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/TestJuliaVersions.yml",
+                "depName": "julia-actions/julia-buildpkg",
+                "sourceUrl": "https://github.com/julia-actions/julia-buildpkg"
+            },
+            {
+                "dataSource": ".github/workflows/TestJuliaVersions.yml",
+                "depName": "julia-actions/julia-runtest",
+                "sourceUrl": "https://github.com/julia-actions/julia-runtest"
+            },
+            {
+                "dataSource": ".github/workflows/TestJuliaVersions.yml",
+                "depName": "julia-actions/setup-julia",
+                "sourceUrl": "https://github.com/julia-actions/setup-julia"
+            }
+        ]
+    },
+    {
+        "repo": "fenicsx-adapter",
+        "deps": [
+            {
+                "dataSource": "setup.py",
+                "depName": "mpi4py",
+                "sourceUrl": "https://github.com/mpi4py/mpi4py"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "pyprecice",
+                "sourceUrl": "https://github.com/precice/python-bindings"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "scipy",
+                "sourceUrl": "https://github.com/jasonmccampbell/scipy-refactor"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "sympy",
+                "sourceUrl": "https://github.com/sympy/sympy"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "peter-evans/autopep8",
+                "sourceUrl": "https://github.com/peter-evans/autopep8"
+            },
+            {
+                "dataSource": ".github/workflows/run-tutorials.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            }
+        ]
+    },
+    {
+        "repo": ".github",
+        "deps": []
+    },
+    {
+        "repo": "micro-manager",
+        "deps": [
+            {
+                "dataSource": "setup.py",
+                "depName": "mpi4py",
+                "sourceUrl": "https://github.com/mpi4py/mpi4py"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "pyprecice",
+                "sourceUrl": "https://github.com/precice/python-bindings"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-links.yml",
+                "depName": "gaurav-nelson/github-action-markdown-link-check",
+                "sourceUrl": "https://github.com/gaurav-nelson/github-action-markdown-link-check"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-markdown.yml",
+                "depName": "articulate/actions-markdownlint",
+                "sourceUrl": "https://github.com/articulate/actions-markdownlint"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "peter-evans/autopep8",
+                "sourceUrl": "https://github.com/peter-evans/autopep8"
+            },
+            {
+                "dataSource": ".github/workflows/pythonpublish.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/pythonpublish.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/run-adaptivity-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/run-adaptivity-test.yml",
+                "depName": "mpi4py/setup-mpi",
+                "sourceUrl": "https://github.com/mpi4py/setup-mpi"
+            },
+            {
+                "dataSource": ".github/workflows/run-domain-decomposition-tests.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/run-domain-decomposition-tests.yml",
+                "depName": "mpi4py/setup-mpi",
+                "sourceUrl": "https://github.com/mpi4py/setup-mpi"
+            },
+            {
+                "dataSource": ".github/workflows/run-macro-micro-dummy.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/run-unit-tests.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            }
+        ]
+    },
+    {
+        "repo": "precice-pre-commit-hooks",
+        "deps": []
+    },
+    {
+        "repo": "febio-adapter",
+        "deps": []
+    },
+    {
+        "repo": "dumux-adapter",
+        "deps": [
+            {
+                "dataSource": "doc/user/requirements.txt",
+                "depName": "mkdocs-material",
+                "sourceUrl": "https://github.com/squidfunk/mkdocs-material"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test-dumux-master.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker-containers.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker-containers.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker-containers.yml",
+                "depName": "docker/login-action",
+                "sourceUrl": "https://github.com/docker/login-action"
+            },
+            {
+                "dataSource": ".github/workflows/build-docker-containers.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
+                "dataSource": ".github/workflows/style-checking.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/style-checking.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/style-checking.yml",
+                "depName": "actionshub/markdownlint",
+                "sourceUrl": "https://github.com/actionshub/markdownlint"
+            }
+        ]
+    },
+    {
+        "repo": "setup-precice-action",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            }
+        ]
+    },
+    {
+        "repo": "rust-bindings",
+        "deps": [
+            {
+                "dataSource": "Cargo.toml",
+                "depName": "clap",
+                "sourceUrl": "https://github.com/clap-rs/clap"
+            },
+            {
+                "dataSource": "Cargo.toml",
+                "depName": "cxx",
+                "sourceUrl": "https://github.com/dtolnay/cxx"
+            },
+            {
+                "dataSource": "Cargo.toml",
+                "depName": "cxx-build",
+                "sourceUrl": "https://github.com/dtolnay/cxx"
+            },
+            {
+                "dataSource": "Cargo.toml",
+                "depName": "pkg-config",
+                "sourceUrl": "https://github.com/rust-lang/pkg-config-rs"
+            },
+            {
+                "dataSource": "Cargo.toml",
+                "depName": "semver",
+                "sourceUrl": "https://github.com/dtolnay/semver"
+            },
+            {
+                "dataSource": ".github/workflows/build-and-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/code-style.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/code-style.yml",
+                "depName": "actions/setup-python",
+                "sourceUrl": "https://github.com/actions/setup-python"
+            },
+            {
+                "dataSource": ".github/workflows/release.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            }
+        ]
+    },
+    {
+        "repo": "fmi-runner",
+        "deps": [
+            {
+                "dataSource": "setup.py",
+                "depName": "fmpy",
+                "sourceUrl": "https://github.com/Payvean/fmpy"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "numpy",
+                "sourceUrl": "https://github.com/numpy/numpy"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "pyprecice",
+                "sourceUrl": "https://github.com/precice/python-bindings"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/check-pep8.yml",
+                "depName": "peter-evans/autopep8",
+                "sourceUrl": "https://github.com/peter-evans/autopep8"
+            },
+            {
+                "dataSource": ".github/workflows/run-regression-test.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            }
+        ]
+    },
+    {
+        "repo": "run-redirect",
+        "deps": []
+    },
+    {
+        "repo": "forum-redirect",
+        "deps": []
+    },
+    {
+        "repo": "nix-packages",
+        "deps": [
+            {
+                "dataSource": ".github/workflows/build-paper.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/build-paper.yml",
+                "depName": "actions/upload-artifact",
+                "sourceUrl": "https://github.com/actions/upload-artifact"
+            },
+            {
+                "dataSource": ".github/workflows/build-paper.yml",
+                "depName": "cachix/install-nix-action",
+                "sourceUrl": "https://github.com/cachix/install-nix-action"
+            }
+        ]
+    }
+]
