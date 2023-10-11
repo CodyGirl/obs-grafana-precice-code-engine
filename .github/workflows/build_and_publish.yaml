@@ -14,3 +14,6 @@ jobs:
           cd grafana
           docker build . --tag ghcr.io/codygirl/precice-obs-grafana-ce:latest
           docker push ghcr.io/codygirl/precice-obs-grafana-ce:latest
+          cd ../dependency_dashboard
+          docker build . --tag ghcr.io/codygirl/precice-obs-backend-python-ce:latest
+          docker push ghcr.io/codygirl/precice-obs-backend-python-ce:latest
