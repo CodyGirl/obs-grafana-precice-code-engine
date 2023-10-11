@@ -1,7 +1,7 @@
 version: "3"
 services:
   dex:
-    image: ghcr.io/codygirl/precice-obs-backend-python:latest
+    image: ghcr.io/codygirl/precice-obs-backend-python-ce:latest
     container_name: dex
     hostname: dex
     env_file:
@@ -11,7 +11,7 @@ services:
     networks:
       - obs
   grafana:
-    image: ghcr.io/codygirl/precice-obs-grafana:latest
+    image: ghcr.io/codygirl/precice-obs-grafana-ce:latest
     container_name: grafana
     hostname: grafana
     env_file:
