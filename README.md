@@ -33,6 +33,7 @@ Create a .env file in the root directory with the following fields:
 - CE_APP={cloud_env_app_name}
 - CE_SUBDOMAIN={cloud_env_sub_domain}
 - CE_DOMAIN={cloud_env_domain}
+- DEX_URL={backend_url}
 
 All these parameters are configurable, do not forget to change them as the environment changes.
 
