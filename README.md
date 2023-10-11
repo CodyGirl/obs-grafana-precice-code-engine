@@ -10,14 +10,14 @@ This project aims at providing a solution to better manage the code repositories
 - REST APIs are created using Flask framework
 - Starting point is the 'dependencyAPI.py' file
 - To start the backend individually run ```python3 dependencyAPI.py```
-- To build a docker image run ```docker build -t precice-obs-backend-python .```
+- To build a docker image run ```docker build -t precice-obs-backend-python-ce .```
 
 ### Frontend
 
 - Tool: Grafana
 - Plugins used: yesoreyeram-infinity-datasource,volkovlabs-echarts-panel,grafana-github-datasource
 - Authentication donoe via GitHub OAuth application
-- To build a docker image run ```docker build -t precice-obs-grafana .```
+- To build a docker image run ```docker build -t precice-obs-grafana-ce .```
 
 ### Environment
 
