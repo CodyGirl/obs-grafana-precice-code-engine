@@ -30,7 +30,9 @@ Create a .env file in the root directory with the following fields:
 - GTOKEN=<github_personal_access_token>
 - GHE_CLIENT_SECRET=<github_oauth_application_client_secret>
 - GHE_CLIENT_ID=<github_oauth_application_client_id>
-- BW_DOMAIN=localhost
+- CE_APP=<cloud-env-app-name>
+- CE_SUBDOMAIN=<cloud-env-subdomain>
+- CE_DOMAIN=<cloud-env-domain>
 
 All these parameters are configurable, do not forget to change them as the environment changes.
 
