@@ -2668,6 +2668,16 @@
                 "dataSource": "setup.py",
                 "depName": "pydot",
                 "sourceUrl": "https://github.com/pydot/pydot"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "pygobject",
+                "sourceUrl": "https://github.com/GNOME/pygobject"
+            },
+            {
+                "dataSource": "setup.py",
+                "depName": "xdot",
+                "sourceUrl": "https://github.com/jrfonseca/xdot.py"
             }
         ]
     },
@@ -2868,6 +2878,26 @@
                 "sourceUrl": "https://github.com/docker/build-push-action"
             },
             {
+                "dataSource": ".github/workflows/intel-pr.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/intel.yml",
+                "depName": "actions/checkout",
+                "sourceUrl": "https://github.com/actions/checkout"
+            },
+            {
+                "dataSource": ".github/workflows/intel.yml",
+                "depName": "docker/build-push-action",
+                "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/intel.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
+            },
+            {
                 "dataSource": ".github/workflows/monthly.yml",
                 "depName": "actions/checkout",
                 "sourceUrl": "https://github.com/actions/checkout"
@@ -2876,6 +2906,11 @@
                 "dataSource": ".github/workflows/monthly.yml",
                 "depName": "docker/build-push-action",
                 "sourceUrl": "https://github.com/docker/build-push-action"
+            },
+            {
+                "dataSource": ".github/workflows/monthly.yml",
+                "depName": "docker/setup-buildx-action",
+                "sourceUrl": "https://github.com/docker/setup-buildx-action"
             },
             {
                 "dataSource": ".github/workflows/ubuntu-2004-pr.yml",
